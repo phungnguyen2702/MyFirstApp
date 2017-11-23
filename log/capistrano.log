@@ -1,0 +1,16 @@
+# Logfile created on 2017-11-23 09:25:58 +0700 by logger.rb/56815
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-11-23 09:25:58 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4ee63bc9] Running /usr/bin/env which passenger on depot.pragprog.com
+ DEBUG [4ee63bc9] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-11-23 09:30:02 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [3486bb5c] Running /usr/bin/env which passenger on depot.pragprog.com
+ DEBUG [3486bb5c] Command: /usr/bin/env which passenger
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-11-23 10:00:22 +0700 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a4a8f989] Running /usr/bin/env which passenger on phungnguyen2702.net
+ DEBUG [a4a8f989] Command: /usr/bin/env which passenger

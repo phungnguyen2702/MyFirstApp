@@ -1,0 +1,68 @@
+D, [2017-11-22T16:33:16.455782 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2017-11-22T16:33:16.576824 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2017-11-22T16:33:16.592528 #8846] DEBUG -- :   [1m[35m (15.3ms)[0m  [1m[35mDROP TABLE IF EXISTS `carts` CASCADE[0m
+D, [2017-11-22T16:33:17.088764 #8846] DEBUG -- :   [1m[35m (495.9ms)[0m  [1m[35mCREATE TABLE `carts` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:17.089540 #8846] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS `line_items` CASCADE[0m
+D, [2017-11-22T16:33:17.532205 #8846] DEBUG -- :   [1m[35m (440.6ms)[0m  [1m[35mCREATE TABLE `line_items` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `product_id` int, `cart_id` int, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL, `quantity` int DEFAULT 1, `order_id` int,  INDEX `index_line_items_on_cart_id`  (`cart_id`),  INDEX `index_line_items_on_order_id`  (`order_id`),  INDEX `index_line_items_on_product_id`  (`product_id`)) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:17.532748 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS `orders` CASCADE[0m
+D, [2017-11-22T16:33:17.825145 #8846] DEBUG -- :   [1m[35m (292.1ms)[0m  [1m[35mCREATE TABLE `orders` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `address` text, `email` varchar(255), `pay_type` int, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:17.826363 #8846] DEBUG -- :   [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE IF EXISTS `products` CASCADE[0m
+D, [2017-11-22T16:33:18.119176 #8846] DEBUG -- :   [1m[35m (291.8ms)[0m  [1m[35mCREATE TABLE `products` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `title` varchar(255), `description` text, `image_url` varchar(255), `price` decimal, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:18.119903 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE IF EXISTS `users` CASCADE[0m
+D, [2017-11-22T16:33:18.395210 #8846] DEBUG -- :   [1m[35m (275.0ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `password_digest` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:18.796603 #8846] DEBUG -- :   [1m[35m (400.4ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:18.809272 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:33:18.846584 #8846] DEBUG -- :   [1m[35m (36.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES (20171120043324)[0m
+D, [2017-11-22T16:33:18.888392 #8846] DEBUG -- :   [1m[35m (41.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (version) VALUES
+(20171120011611),
+(20171115035043),
+(20171117031537),
+(20171116040804),
+(20171120011443),
+(20171117031028),
+(20171116041818);
+
+[0m
+D, [2017-11-22T16:33:19.314900 #8846] DEBUG -- :   [1m[35m (392.1ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+D, [2017-11-22T16:33:19.317175 #8846] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2017-11-22T16:33:19.321764 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.323546 #8846] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'production', '2017-11-22 09:33:19', '2017-11-22 09:33:19')[0m
+D, [2017-11-22T16:33:19.373235 #8846] DEBUG -- :   [1m[35m (49.3ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:33:19.374396 #8846] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+D, [2017-11-22T16:33:19.375796 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.376419 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:33:19.377588 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2017-11-22T16:33:19.378806 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:33:19.483489 #8846] DEBUG -- :   [1m[35mSQL (10.5ms)[0m  [1m[31mDELETE FROM `orders`[0m
+D, [2017-11-22T16:33:19.501360 #8846] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `carts`[0m
+D, [2017-11-22T16:33:19.504186 #8846] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM `products`[0m
+D, [2017-11-22T16:33:19.509112 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.523486 #8846] DEBUG -- :   [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `products` WHERE `products`.`title` = BINARY 'Rails, Angular, Postgres, and Bootstrap' LIMIT 1[0m
+D, [2017-11-22T16:33:19.524589 #8846] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `products` (`title`, `description`, `image_url`, `price`, `created_at`, `updated_at`) VALUES ('Rails, Angular, Postgres, and Bootstrap', '<p>\n      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>\n      As a Rails developer, you care about user experience and performance,\n      but you also want simple and maintainable code. Achieve all that by\n      embracing the full stack of web development, from styling with\n      Bootstrap, building an interactive user interface with AngularJS, to\n      storing data quickly and reliably in PostgreSQL. Take a holistic view of\n      full-stack development to create usable, high-performing applications,\n      and learn to use these technologies effectively in a Ruby on Rails\n      environment.\n      </p>', 'dcbang.jpg', 45, '2017-11-22 09:33:19', '2017-11-22 09:33:19')[0m
+D, [2017-11-22T16:33:19.565041 #8846] DEBUG -- :   [1m[35m (40.1ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:33:19.565519 #8846] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.566407 #8846] DEBUG -- :   [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM `products` WHERE `products`.`title` = BINARY 'Seven Mobile Apps in Seven Weeks' LIMIT 1[0m
+D, [2017-11-22T16:33:19.567421 #8846] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `products` (`title`, `description`, `image_url`, `price`, `created_at`, `updated_at`) VALUES ('Seven Mobile Apps in Seven Weeks', '<p>\n      <em>Native Apps, Multiple Platforms</em>\n      Answer the question “Can we build this for ALL the devices?” with a\n      resounding YES. This book will help you get there with a real-world\n      introduction to seven platforms, whether you’re new to mobile or an\n      experienced developer needing to expand your options. Plus, you’ll find\n      out which cross-platform solution makes the most sense for your needs.\n      </p>', '7apps.jpg', 26, '2017-11-22 09:33:19', '2017-11-22 09:33:19')[0m
+D, [2017-11-22T16:33:19.615076 #8846] DEBUG -- :   [1m[35m (47.4ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:33:19.616574 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.617757 #8846] DEBUG -- :   [1m[36mProduct Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM `products` WHERE `products`.`title` = BINARY 'Ruby Performance Optimization' LIMIT 1[0m
+D, [2017-11-22T16:33:19.618832 #8846] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `products` (`title`, `description`, `image_url`, `price`, `created_at`, `updated_at`) VALUES ('Ruby Performance Optimization', '<p>\n      <em>Why Ruby Is Slow, and How to Fix It</em> \n      You don’t have to accept slow Ruby or Rails performance. In this\n      comprehensive guide to Ruby optimization, you’ll learn how to write\n      faster Ruby code—but that’s just the beginning. See exactly what makes\n      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you\n      through perils of memory and CPU optimization, profiling, measuring,\n      performance testing, garbage collection, and tuning. You’ll find that\n      all those “hard” things aren’t so difficult after all, and your code\n      will run orders of magnitude faster.\n      </p>', 'adrpo.jpg', 46, '2017-11-22 09:33:19', '2017-11-22 09:33:19')[0m
+D, [2017-11-22T16:33:19.723630 #8846] DEBUG -- :   [1m[35m (104.5ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:33:19.724126 #8846] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+D, [2017-11-22T16:33:19.725071 #8846] DEBUG -- :   [1m[36mProduct Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM `products` WHERE `products`.`title` = BINARY 'Programming Ruby 1.9' LIMIT 1[0m
+D, [2017-11-22T16:33:19.726046 #8846] DEBUG -- :   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `products` (`title`, `description`, `image_url`, `price`, `created_at`, `updated_at`) VALUES ('Programming Ruby 1.9', '<p><em>Ruby is the fastest growing and most exciting dynamic\n    language out there</em>. If you need to get working programs\n    delivered fast, you should add Ruby to your toolbox.</p>', 'ruby.png', 49, '2017-11-22 09:33:19', '2017-11-22 09:33:19')[0m
+D, [2017-11-22T16:33:19.832129 #8846] DEBUG -- :   [1m[35m (105.8ms)[0m  [1m[35mCOMMIT[0m
+D, [2017-11-22T16:37:47.395776 #9050] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2017-11-22T16:37:47.419695 #9050] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:37:47.422702 #9050] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-11-22T16:37:47.423577 #9050] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:37:47.424481 #9050] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-11-22T16:37:47.425211 #9050] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:37:47.426046 #9050] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-11-22T16:42:08.190033 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+D, [2017-11-22T16:42:08.228649 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:42:08.231777 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-11-22T16:42:08.232609 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:42:08.233547 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
+D, [2017-11-22T16:42:08.234343 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+D, [2017-11-22T16:42:08.235307 #9227] DEBUG -- :   [1m[35m (0.2ms)[0m  [1m[34mSELECT `ar_internal_metadata`.`value` FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment'[0m
