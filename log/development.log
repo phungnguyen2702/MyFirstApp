@@ -20739,3 +20739,1439 @@ ProductsChannel is transmitting the subscription confirmation
 ProductsChannel is streaming from products
 Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-23 14:18:34 +0700
 ProductsChannel stopped streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 08:05:15 +0700
+  
+PG::ConnectionBad (FATAL:  Peer authentication failed for user "phung"
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-11-27 08:05:43 +0700
+  
+PG::ConnectionBad (FATAL:  Peer authentication failed for user "phung"
+):
+  
+pg (0.21.0) lib/pg.rb:56:in `initialize'
+pg (0.21.0) lib/pg.rb:56:in `new'
+pg (0.21.0) lib/pg.rb:56:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:695:in `connect'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:220:in `initialize'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.4) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.4) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.4) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (24.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "myfirstapp_production"[0m
+  [1m[35m (220.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "depot_production"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "depot_production_test"[0m
+  [1m[35m (1023.9ms)[0m  [1m[35mCREATE DATABASE "depot_production" ENCODING = 'unicode'[0m
+  [1m[35m (748.4ms)[0m  [1m[35mCREATE DATABASE "depot_production_test" ENCODING = 'unicode'[0m
+  [1m[35m (125.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (97.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (26.8ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2754433143543187260)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateProducts (20171115035043)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (96.1ms)[0m  [1m[35mCREATE TABLE "products" ("id" bigserial primary key, "title" character varying, "description" text, "image_url" character varying, "price" decimal, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (31.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171115035043"]]
+  [1m[35m (23.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateCarts (20171116040804)
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (42.9ms)[0m  [1m[35mCREATE TABLE "carts" ("id" bigserial primary key, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171116040804"]]
+  [1m[35m (15.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLineItems (20171116041818)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (96.1ms)[0m  [1m[35mCREATE TABLE "line_items" ("id" bigserial primary key, "product_id" bigint, "cart_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_11e15d5c6b"
+FOREIGN KEY ("product_id")
+  REFERENCES "products" ("id")
+, CONSTRAINT "fk_rails_af645e8e5f"
+FOREIGN KEY ("cart_id")
+  REFERENCES "carts" ("id")
+)[0m
+  [1m[35m (48.9ms)[0m  [1m[35mCREATE  INDEX  "index_line_items_on_product_id" ON "line_items"  ("product_id")[0m
+  [1m[35m (43.4ms)[0m  [1m[35mCREATE  INDEX  "index_line_items_on_cart_id" ON "line_items"  ("cart_id")[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171116041818"]]
+  [1m[35m (15.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddQuantityToLineItems (20171117031028)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (161.6ms)[0m  [1m[35mALTER TABLE "line_items" ADD "quantity" integer DEFAULT 1[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171117031028"]]
+  [1m[35m (18.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CombineItemsInCart (20171117031537)
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT "carts".* FROM "carts"[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171117031537"]]
+  [1m[35m (11.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOrders (20171120011443)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (142.3ms)[0m  [1m[35mCREATE TABLE "orders" ("id" bigserial primary key, "name" character varying, "address" text, "email" character varying, "pay_type" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171120011443"]]
+  [1m[35m (68.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddOrderToLineItem (20171120011611)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "line_items" ADD "order_id" bigint[0m
+  [1m[35m (42.8ms)[0m  [1m[35mCREATE  INDEX  "index_line_items_on_order_id" ON "line_items"  ("order_id")[0m
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "line_items" ADD CONSTRAINT "fk_rails_2dc2e5c22c"
+FOREIGN KEY ("order_id")
+  REFERENCES "orders" ("id")
+[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171120011611"]]
+  [1m[35m (18.8ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20171120043324)
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (190.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20171120043324"]]
+  [1m[35m (19.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2017-11-27 03:08:43.673999"], ["updated_at", "2017-11-27 03:08:43.673999"]]
+  [1m[35m (2.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT pg_advisory_unlock(2754433143543187260)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "orders"[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "carts"[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Rails, Angular, Postgres, and Bootstrap"], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Rails, Angular, Postgres, and Bootstrap"], ["description", "<p>\n      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>\n      As a Rails developer, you care about user experience and performance,\n      but you also want simple and maintainable code. Achieve all that by\n      embracing the full stack of web development, from styling with\n      Bootstrap, building an interactive user interface with AngularJS, to\n      storing data quickly and reliably in PostgreSQL. Take a holistic view of\n      full-stack development to create usable, high-performing applications,\n      and learn to use these technologies effectively in a Ruby on Rails\n      environment.\n      </p>"], ["image_url", "dcbang.jpg"], ["price", "45.0"], ["created_at", "2017-11-27 03:08:58.822803"], ["updated_at", "2017-11-27 03:08:58.822803"]]
+  [1m[35m (67.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Seven Mobile Apps in Seven Weeks"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Seven Mobile Apps in Seven Weeks"], ["description", "<p>\n      <em>Native Apps, Multiple Platforms</em>\n      Answer the question “Can we build this for ALL the devices?” with a\n      resounding YES. This book will help you get there with a real-world\n      introduction to seven platforms, whether you’re new to mobile or an\n      experienced developer needing to expand your options. Plus, you’ll find\n      out which cross-platform solution makes the most sense for your needs.\n      </p>"], ["image_url", "7apps.jpg"], ["price", "26.0"], ["created_at", "2017-11-27 03:08:58.893854"], ["updated_at", "2017-11-27 03:08:58.893854"]]
+  [1m[35m (16.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Ruby Performance Optimization"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ruby Performance Optimization"], ["description", "<p>\n      <em>Why Ruby Is Slow, and How to Fix It</em> \n      You don’t have to accept slow Ruby or Rails performance. In this\n      comprehensive guide to Ruby optimization, you’ll learn how to write\n      faster Ruby code—but that’s just the beginning. See exactly what makes\n      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you\n      through perils of memory and CPU optimization, profiling, measuring,\n      performance testing, garbage collection, and tuning. You’ll find that\n      all those “hard” things aren’t so difficult after all, and your code\n      will run orders of magnitude faster.\n      </p>"], ["image_url", "adrpo.jpg"], ["price", "46.0"], ["created_at", "2017-11-27 03:08:58.912662"], ["updated_at", "2017-11-27 03:08:58.912662"]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Programming Ruby 1.9"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Programming Ruby 1.9"], ["description", "<p><em>Ruby is the fastest growing and most exciting dynamic\n    language out there</em>. If you need to get working programs\n    delivered fast, you should add Ruby to your toolbox.</p>"], ["image_url", "ruby.png"], ["price", "49.5"], ["created_at", "2017-11-27 03:08:58.920960"], ["updated_at", "2017-11-27 03:08:58.920960"]]
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:09:10 +0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:09:11.261317"], ["updated_at", "2017-11-27 03:09:11.261317"]]
+  [1m[35m (65.0ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (20032.8ms)
+  [1m[36mLineItem Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 1], ["LIMIT", 1]]
+  [1m[36mLineItem Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 1], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (4.4ms)
+Completed 200 OK in 20769ms (Views: 20546.2ms | ActiveRecord: 76.5ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:09:33 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:09:36 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:09:45 +0700
+ProductsChannel stopped streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:22:41 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (22.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:22:41.965149"], ["updated_at", "2017-11-27 03:22:41.965149"]]
+  [1m[35m (36.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (44.0ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (426.8ms)
+Completed 500 Internal Server Error in 1212ms (ActiveRecord: 103.7ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+ppend='" , store_index_path %> </a></li>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+<li><a href="http://localhost:3000/faq">'.freeze;@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+ef="http://localhost:3000/faq">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <li><a href="http://localhost:3000/news">'.free
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+f="http://localhost:3000/news">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <li><a href="http://localhost:3000/contact">'.f
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+http://localhost:3000/contact">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+ffer.append=( link_to  "Orders", orders_path );@output_buffe
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting ')'
+er.append=( link_to  "Products", products_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting ')'
+uffer.append=( link_to  "Users", users_path );@output_buffer
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:47: syntax error, unexpected tCONSTANT, expecting ')'
+er.append=( button_to  "Logout", logout_path, method: :delet
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:49: syntax error, unexpected tCONSTANT, expecting ')'
+ffer.append=( button_to  "Sign In", users_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <div id="main">
+                   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:37: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:47: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:49: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:54: unterminated string meets end of file
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:23:01 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:23:01.892102"], ["updated_at", "2017-11-27 03:23:01.892102"]]
+  [1m[35m (16.9ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (11.9ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 18.2ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+ppend='" , store_index_path %></li>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+buffer.append=( t('.questions') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+tput_buffer.append=( t('.news') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+t_buffer.append=( t('.contact') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+        </ul>
+         ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:43: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+            <li>'.freeze;@output_buffer.app
+             ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+          </ul>
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:52: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+      <div id="main">
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+      </div>
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:57: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+  </body>
+   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unknown regexp options - htl
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:36: unknown regexp option - l
+app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:37: unknown regexp option - l
+app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:38: unknown regexp option - l
+app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:43: unknown regexp option - l
+app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:45: unknown regexp option - l
+app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:52: unknown regexp options - dv
+app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:57: unknown regexp options - dv
+app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:59: unknown regexp options - htl
+app/views/layouts/application.html.erb:59: unterminated string meets end of file
+app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:05 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:24:05.657842"], ["updated_at", "2017-11-27 03:24:05.657842"]]
+  [1m[35m (25.1ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (11.5ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 26.3ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+append='" , store_index_url %></li>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+buffer.append=( t('.questions') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+tput_buffer.append=( t('.news') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+t_buffer.append=( t('.contact') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+        </ul>
+         ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:43: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+            <li>'.freeze;@output_buffer.app
+             ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+          </ul>
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:52: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+      <div id="main">
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+      </div>
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:57: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+  </body>
+   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unknown regexp options - htl
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+append='" , store_index_url %></li>
+app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:36: unknown regexp option - l
+app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:37: unknown regexp option - l
+app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:38: unknown regexp option - l
+app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:43: unknown regexp option - l
+app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:45: unknown regexp option - l
+app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:52: unknown regexp options - dv
+app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:57: unknown regexp options - dv
+app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:59: unknown regexp options - htl
+app/views/layouts/application.html.erb:59: unterminated string meets end of file
+app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:33 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (1.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:24:33.495980"], ["updated_at", "2017-11-27 03:24:33.495980"]]
+  [1m[35m (16.3ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (52.7ms)
+  [1m[36mLineItem Exists (6.4ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (3.1ms)
+Completed 200 OK in 616ms (Views: 581.2ms | ActiveRecord: 25.7ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:24:34 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:24:34 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:36 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (10.9ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 70ms (Views: 66.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:38 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (11.3ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.2ms)
+Completed 200 OK in 77ms (Views: 73.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:38 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (10.0ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.5ms)
+Completed 200 OK in 73ms (Views: 70.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:38 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (10.6ms)
+  [1m[36mLineItem Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.6ms)
+Completed 200 OK in 66ms (Views: 60.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:38 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (13.7ms)
+  [1m[36mLineItem Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.4ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:24:50 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (2.1ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (25.5ms)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 2.5ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:61: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:63: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:61: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:63: syntax error, unexpected keyword_end, expecting ')'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:24:50 +0700
+ProductsChannel stopped streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:25:24 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (10.5ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.9ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+d='".to_s , store_index_url %></li>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+buffer.append=( t('.questions') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+tput_buffer.append=( t('.news') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+          <li><a href="http://localhost:3
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+t_buffer.append=( t('.contact') );@output_buffer.safe_append
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+        </ul>
+         ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:43: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+            <li>'.freeze;@output_buffer.app
+             ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: unknown regexp option - l
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+          </ul>
+           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:52: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+      <div id="main">
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+      </div>
+       ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:57: unknown regexp options - dv
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+  </body>
+   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unknown regexp options - htl
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:36: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:36: unknown regexp option - l
+app/views/layouts/application.html.erb:37: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:37: unknown regexp option - l
+app/views/layouts/application.html.erb:38: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/layouts/application.html.erb:38: unknown regexp option - l
+app/views/layouts/application.html.erb:39: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:43: unknown regexp option - l
+app/views/layouts/application.html.erb:44: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:45: unknown regexp option - l
+app/views/layouts/application.html.erb:46: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:52: unknown regexp options - dv
+app/views/layouts/application.html.erb:54: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:56: syntax error, unexpected '<', expecting ')'
+app/views/layouts/application.html.erb:57: unknown regexp options - dv
+app/views/layouts/application.html.erb:58: syntax error, unexpected '<'
+app/views/layouts/application.html.erb:59: unknown regexp options - htl
+app/views/layouts/application.html.erb:59: unterminated string meets end of file
+app/views/layouts/application.html.erb:59: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:26:03 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (20.1ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.9ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <li><a href="http://localhost:3000/faq">'.freez
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+ef="http://localhost:3000/faq">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <li><a href="http://localhost:3000/news">'.free
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+f="http://localhost:3000/news">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <li><a href="http://localhost:3000/contact">'.f
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+http://localhost:3000/contact">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+ffer.append=( link_to  "Orders", orders_path );@output_buffe
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting ')'
+er.append=( link_to  "Products", products_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting ')'
+uffer.append=( link_to  "Users", users_path );@output_buffer
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:47: syntax error, unexpected tCONSTANT, expecting ')'
+er.append=( button_to  "Logout", logout_path, method: :delet
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:49: syntax error, unexpected tCONSTANT, expecting ')'
+ffer.append=( button_to  "Sign In", users_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+      <div id="main">
+                   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/application.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:36: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:37: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:43: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:47: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:49: syntax error, unexpected tCONSTANT, expecting ')'
+app/views/layouts/application.html.erb:54: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/application.html.erb:54: unterminated string meets end of file
+app/views/layouts/application.html.erb:54: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:26:11 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (2.0ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (17.5ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 2.3ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+;@output_buffer.safe_append='\' , store_index_url %></li>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:61: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:63: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected $undefined, expecting ')'
+app/views/layouts/application.html.erb:61: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/layouts/application.html.erb:63: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:09 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.5ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:29:10.345084"], ["updated_at", "2017-11-27 03:29:10.345084"]]
+  [1m[35m (37.4ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (45.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (1091.9ms)
+Completed 500 Internal Server Error in 1805ms (ActiveRecord: 85.1ms)
+
+
+  
+SyntaxError (/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:35: syntax error, unexpected '>'
+utput_buffer.safe_append='" %>
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+<li><a href="http://localhost:3000/faq">'.freeze;@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+ef="http://localhost:3000/faq">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          <li><a href="http://localhost:3000/news">'.free
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+f="http://localhost:3000/news">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+          <li><a href="http://localhost:3000/contact">'.f
+                           ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: unknown regexp options - lcalht
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:39: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+http://localhost:3000/contact">'.freeze;@output_buffer.appen
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting keyword_end
+ffer.append=( link_to  "Orders", orders_path );@output_buffe
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting keyword_end
+er.append=( link_to  "Products", products_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:46: syntax error, unexpected tCONSTANT, expecting keyword_end
+uffer.append=( link_to  "Users", users_path );@output_buffer
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:48: syntax error, unexpected tCONSTANT, expecting keyword_end
+er.append=( button_to  "Logout", logout_path, method: :delet
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_end
+ffer.append=( button_to  "Sign In", users_path );@output_buf
+                              ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      <div id="main">
+                   ^
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:55: unterminated string meets end of file
+/home/local/ELARION/phungnv/MyFolder/LearnRails/MyFirstApp/app/views/layouts/application.html.erb:55: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/layouts/application.html.erb:35: syntax error, unexpected '>'
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:38: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:38: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:39: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:39: unknown regexp options - lcalht
+app/views/layouts/application.html.erb:39: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+app/views/layouts/application.html.erb:44: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/application.html.erb:45: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/application.html.erb:46: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/application.html.erb:48: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/application.html.erb:50: syntax error, unexpected tCONSTANT, expecting keyword_end
+app/views/layouts/application.html.erb:55: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+app/views/layouts/application.html.erb:55: unterminated string meets end of file
+app/views/layouts/application.html.erb:55: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:51 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.5ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES ($1, $2) RETURNING "id"[0m  [["created_at", "2017-11-27 03:29:51.857188"], ["updated_at", "2017-11-27 03:29:51.857188"]]
+  [1m[35m (32.7ms)[0m  [1m[35mCOMMIT[0m
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (7.8ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.2ms)
+Completed 200 OK in 1260ms (Views: 1214.3ms | ActiveRecord: 34.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:29:54 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:29:54 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:56 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (8.6ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.7ms)
+Completed 200 OK in 33ms (Views: 30.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:56 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (12.2ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 79ms (Views: 75.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:56 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (12.3ms)
+  [1m[36mLineItem Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 105ms (Views: 101.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:29:57 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (14.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (28.6ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 200 OK in 75ms (Views: 58.5ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/faq" for 127.0.0.1 at 2017-11-27 10:29:58 +0700
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"faq"}
+faq translation not available
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (7.4ms)
+  [1m[36mLineItem Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 200 OK in 44ms (Views: 40.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/news" for 127.0.0.1 at 2017-11-27 10:30:00 +0700
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"news"}
+news translation not available
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (16.3ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 200 OK in 64ms (Views: 60.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2017-11-27 10:30:01 +0700
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"contact"}
+contact translation not available
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.7ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (15.2ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.8ms)
+Completed 200 OK in 72ms (Views: 68.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:33:58 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (65.1ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (258.7ms)
+  [1m[36mLineItem Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 500 Internal Server Error in 2128ms (ActiveRecord: 505.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc2f5f988>:0x00007f9fc2f5cda0>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162073766680'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:34:40 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (1.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (10.6ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 500 Internal Server Error in 347ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc2f5f988>:0x00007f9fc2da2028>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162072810540'
+Started POST "/__web_console/repl_sessions/e4bc09f31068f1f9c67887ad071c561b/trace" for 127.0.0.1 at 2017-11-27 10:34:47 +0700
+Started GET "/carts/whow" for 127.0.0.1 at 2017-11-27 10:35:45 +0700
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"whow"}
+  [1m[36mUser Load (275.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 472ms (ActiveRecord: 304.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:35:46 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 546ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc2d7a2d0>:0x00007f9fc2d784a8>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162072594220'
+Started GET "/carts/show" for 127.0.0.1 at 2017-11-27 10:35:59 +0700
+Processing by CartsController#show as HTML
+  Parameters: {"id"=>"show"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:35:59 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 427ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc2d7a2d0>:0x00007f9fbc07c818>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162015570200'
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:37:31 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 300ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc25e89e0>:0x00007f9fc2572808>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162068911420'
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:37:36 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (23.6ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (227.9ms)
+  [1m[36mLineItem Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 500 Internal Server Error in 623ms (ActiveRecord: 63.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `store_question_url' for #<#<Class:0x00007f9fc20b4a00>:0x00007f9fc20ae920>
+Did you mean?  store_index_url):
+    33:         
+    34:         <ul>
+    35:           <li><%= link_to  t('.home') %> , store_index_url %></li>
+    36:           <li><%= link_to t('.questions'), store_question_url %></li>
+    37:           <li><%= link_to t('.news'), store_news_url %></li>
+    38:           <li><%= link_to t('.contact'), store_contact_path %></li>
+    39:         </ul>
+  
+app/views/layouts/application.html.erb:36:in `_app_views_layouts_application_html_erb__1632805987028760428_70162065987140'
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:39:15 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 418ms (Views: 410.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:39:20 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:39:21 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:39:30 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 187ms (Views: 186.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:39:54 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:39:55 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (85.1ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.4ms)
+Completed 200 OK in 166ms (Views: 126.9ms | ActiveRecord: 10.3ms)
+
+
+Started GET "/store/question" for 127.0.0.1 at 2017-11-27 10:39:57 +0700
+Processing by StoreController#question as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/question.html.erb within layouts/application
+  Rendered store/question.html.erb within layouts/application (0.5ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/store/news" for 127.0.0.1 at 2017-11-27 10:39:58 +0700
+Processing by StoreController#news as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/news.html.erb within layouts/application
+  Rendered store/news.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 200 OK in 43ms (Views: 40.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/store/contact" for 127.0.0.1 at 2017-11-27 10:39:59 +0700
+Processing by StoreController#contact as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/contact.html.erb within layouts/application
+  Rendered store/contact.html.erb within layouts/application (0.9ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 200 OK in 41ms (Views: 38.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/store/news" for 127.0.0.1 at 2017-11-27 10:40:00 +0700
+Processing by StoreController#news as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/news.html.erb within layouts/application
+  Rendered store/news.html.erb within layouts/application (0.9ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.4ms)
+Completed 200 OK in 71ms (Views: 68.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:40:01 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (2.6ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (21.3ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.5ms)
+Completed 200 OK in 78ms (Views: 71.8ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:41:18 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (62.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 200 OK in 860ms (Views: 856.6ms | ActiveRecord: 0.9ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:19 +0700
+ProductsChannel stopped streaming from products
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:41:19 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:19 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started GET "/store/question" for 127.0.0.1 at 2017-11-27 10:41:22 +0700
+Processing by StoreController#question as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/question.html.erb within layouts/application
+  Rendered store/question.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.5ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/store/news" for 127.0.0.1 at 2017-11-27 10:41:23 +0700
+Processing by StoreController#news as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/news.html.erb within layouts/application
+  Rendered store/news.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 125ms (Views: 122.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/store/contact" for 127.0.0.1 at 2017-11-27 10:41:24 +0700
+Processing by StoreController#contact as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/contact.html.erb within layouts/application
+  Rendered store/contact.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.8ms)
+Completed 200 OK in 44ms (Views: 41.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:41:27 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (14.2ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 200 OK in 64ms (Views: 61.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/question" for 127.0.0.1 at 2017-11-27 10:41:28 +0700
+Processing by StoreController#question as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/question.html.erb within layouts/application
+  Rendered store/question.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (3.0ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/store/news" for 127.0.0.1 at 2017-11-27 10:41:29 +0700
+Processing by StoreController#news as HTML
+  [1m[36mCart Load (0.5ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/news.html.erb within layouts/application
+  Rendered store/news.html.erb within layouts/application (0.6ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.6ms)
+Completed 200 OK in 59ms (Views: 56.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/store/contact" for 127.0.0.1 at 2017-11-27 10:41:29 +0700
+Processing by StoreController#contact as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/contact.html.erb within layouts/application
+  Rendered store/contact.html.erb within layouts/application (0.3ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.1ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:41:30 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (12.3ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.2ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/store/question" for 127.0.0.1 at 2017-11-27 10:41:31 +0700
+Processing by StoreController#question as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/question.html.erb within layouts/application
+  Rendered store/question.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (1.0ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/store/news" for 127.0.0.1 at 2017-11-27 10:41:32 +0700
+Processing by StoreController#news as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/news.html.erb within layouts/application
+  Rendered store/news.html.erb within layouts/application (0.5ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 200 OK in 68ms (Views: 65.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/store/contact" for 127.0.0.1 at 2017-11-27 10:41:32 +0700
+Processing by StoreController#contact as HTML
+  [1m[36mCart Load (0.3ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  Rendering store/contact.html.erb within layouts/application
+  Rendered store/contact.html.erb within layouts/application (0.4ms)
+  [1m[36mLineItem Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 7], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (0.9ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2017-11-27 10:41:33 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"GVRbRtqojqRrnuI+02LzvYRz1tc9LVqfuySZz3DUn4QUBQs1roOMX8fwIUtgDY16REvspoRkMjnNHgeyn0KvfQ=="}
+  [1m[36mUser Load (16.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Redirected to http://localhost:3000/login
+Filter chain halted as :authorize rendered or redirected
+Completed 302 Found in 64ms (ActiveRecord: 56.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:41:33 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 58ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:33 +0700
+ProductsChannel stopped streaming from products
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:41:33 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:33 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started POST "/login" for 127.0.0.1 at 2017-11-27 10:41:42 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gfume+qGFUyKohdrL4YC+cKyt+L1ENruFJYpQqhfQVKmpZEQQY2pLj52ogp/XxuP6UxOc+17AXy5vAxAHi2Dgw==", "name"=>"phungdaik112", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "phungdaik112"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/login
+Completed 302 Found in 205ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:41:43 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:43 +0700
+ProductsChannel stopped streaming from products
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:41:43 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:41:43 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+  [1m[35m (13.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mSQL (48.0ms)[0m  [1m[31mDELETE FROM "products"[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Rails, Angular, Postgres, and Bootstrap"], ["LIMIT", 1]]
+  [1m[35mSQL (5.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Rails, Angular, Postgres, and Bootstrap"], ["description", "<p>\n      <em>Powerful, Effective, and Efficient Full-Stack Web Development</em>\n      As a Rails developer, you care about user experience and performance,\n      but you also want simple and maintainable code. Achieve all that by\n      embracing the full stack of web development, from styling with\n      Bootstrap, building an interactive user interface with AngularJS, to\n      storing data quickly and reliably in PostgreSQL. Take a holistic view of\n      full-stack development to create usable, high-performing applications,\n      and learn to use these technologies effectively in a Ruby on Rails\n      environment.\n      </p>"], ["image_url", "dcbang.jpg"], ["price", "45.0"], ["created_at", "2017-11-27 03:44:20.986607"], ["updated_at", "2017-11-27 03:44:20.986607"]]
+  [1m[35m (8.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Seven Mobile Apps in Seven Weeks"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Seven Mobile Apps in Seven Weeks"], ["description", "<p>\n      <em>Native Apps, Multiple Platforms</em>\n      Answer the question “Can we build this for ALL the devices?” with a\n      resounding YES. This book will help you get there with a real-world\n      introduction to seven platforms, whether you’re new to mobile or an\n      experienced developer needing to expand your options. Plus, you’ll find\n      out which cross-platform solution makes the most sense for your needs.\n      </p>"], ["image_url", "7apps.jpg"], ["price", "26.0"], ["created_at", "2017-11-27 03:44:21.003608"], ["updated_at", "2017-11-27 03:44:21.003608"]]
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Ruby Performance Optimization"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Ruby Performance Optimization"], ["description", "<p>\n      <em>Why Ruby Is Slow, and How to Fix It</em> \n      You don’t have to accept slow Ruby or Rails performance. In this\n      comprehensive guide to Ruby optimization, you’ll learn how to write\n      faster Ruby code—but that’s just the beginning. See exactly what makes\n      Ruby and Rails code slow, and how to fix it. Alex Dymo will guide you\n      through perils of memory and CPU optimization, profiling, measuring,\n      performance testing, garbage collection, and tuning. You’ll find that\n      all those “hard” things aren’t so difficult after all, and your code\n      will run orders of magnitude faster.\n      </p>"], ["image_url", "adrpo.jpg"], ["price", "46.0"], ["created_at", "2017-11-27 03:44:21.011312"], ["updated_at", "2017-11-27 03:44:21.011312"]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "products" WHERE "products"."title" = $1 LIMIT $2[0m  [["title", "Programming Ruby 1.9"], ["LIMIT", 1]]
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "products" ("title", "description", "image_url", "price", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Programming Ruby 1.9"], ["description", "<p><em>Ruby is the fastest growing and most exciting dynamic\n  language out there</em>. If you need to get working programs\n  delivered fast, you should add Ruby to your toolbox.</p>"], ["image_url", "ruby.png"], ["price", "49.5"], ["created_at", "2017-11-27 03:44:21.021162"], ["updated_at", "2017-11-27 03:44:21.021162"]]
+  [1m[35m (4.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "phungdaik112"], ["LIMIT", 1]]
+  [1m[35mSQL (30.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "phungdaik112"], ["password_digest", "$2a$10$15MYm12VcQ5xC2DhYHWvw.5BmTWuHDCKRIio0syIfSjV6E/nm3k7O"], ["created_at", "2017-11-27 03:44:21.102990"], ["updated_at", "2017-11-27 03:44:21.102990"]]
+  [1m[35m (16.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/login" for 127.0.0.1 at 2017-11-27 10:44:40 +0700
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1173ms (Views: 920.0ms | ActiveRecord: 0.0ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:44:41 +0700
+ProductsChannel stopped streaming from products
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:44:43 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:44:43 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Started POST "/login" for 127.0.0.1 at 2017-11-27 10:44:54 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Htio4MQxWanK2Xlk4JwzSv4p6qiBzWvwCaHQ3Gd63BKhhp+Lbzrly34NzAWwRSo81dcTOZmmsGKki/Xe0Qgeww==", "name"=>"phungdaik112", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."name" = $1 LIMIT $2[0m  [["name", "phungdaik112"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 69ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2017-11-27 10:44:54 +0700
+Processing by AdminController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (4.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "orders"[0m
+  Rendering admin/index.html.erb within layouts/application
+  Rendered admin/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 81ms (Views: 23.9ms | ActiveRecord: 27.9ms)
+
+
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:44:54 +0700
+ProductsChannel stopped streaming from products
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:44:54 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:44:54 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:44:59 +0700
+ProductsChannel stopped streaming from products
+Started GET "/" for 127.0.0.1 at 2017-11-27 10:55:01 +0700
+Processing by StoreController#index as HTML
+  [1m[36mCart Load (152.1ms)[0m  [1m[34mSELECT  "carts".* FROM "carts" WHERE "carts"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering store/index.html.erb within layouts/application
+  [1m[36mProduct Load (40.4ms)[0m  [1m[34mSELECT "products".* FROM "products" ORDER BY "products"."title" ASC[0m
+  Rendered store/index.html.erb within layouts/application (1446.0ms)
+  [1m[36mLineItem Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  [1m[36mCACHE LineItem Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "line_items" WHERE "line_items"."cart_id" = $1 LIMIT $2[0m  [["cart_id", 5], ["LIMIT", 1]]
+  Rendered carts/_cart.html.erb (2.2ms)
+Completed 200 OK in 3870ms (Views: 2559.9ms | ActiveRecord: 193.3ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2017-11-27 10:55:13 +0700
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:55:14 +0700
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ProductsChannel is transmitting the subscription confirmation
+ProductsChannel is streaming from products
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2017-11-27 10:55:14 +0700
+ProductsChannel stopped streaming from products
